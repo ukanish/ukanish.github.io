@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: $brand-primary;
 }
 
-.fh5co-nav {
+.lastCode-nav {
 	margin: 0;
 	padding: 0;
 	width: 100%;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		background: $brand-primary;
 		padding: 7px 0;
 		margin-bottom: 0;
-		.num, .fh5co-social{
+		.num, .lastCode-social{
 			display: inline-block;
 			margin: 0;
 		}
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			letter-spacing: 0px;
 			color: rgba($brand-white,.7);
 		}
-		.fh5co-social{
+		.lastCode-social{
 			li{
 				font-size: 14px;
 				a{
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	#fh5co-logo {
+	#lastCode-logo {
 		font-size: 24px;
 		margin: 0;
 		padding: 0;
@@ -339,15 +339,15 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-#fh5co-header,
-#fh5co-counter,
-.fh5co-bg {
+#lastCode-header,
+#lastCode-counter,
+.lastCode-bg {
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
 	position: relative;
 }
-.fh5co-bg {
+.lastCode-bg {
 	background-size: cover;
 	background-position: center center;
 	position: relative;
@@ -364,7 +364,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-video {
+.lastCode-video {
 	// height: 450px;
 	overflow: hidden;
 	// @include border-radius(7px);
@@ -421,7 +421,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}
 }
-.fh5co-cover {
+.lastCode-cover {
 	height: 800px;
 
 	background-size: cover;
@@ -439,7 +439,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba($brand-black,.3);
 	}
-	> .fh5co-container {
+	> .lastCode-container {
 		position: relative;
 		z-index: 10;
 	}
@@ -458,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 	}	
 
-	&.fh5co-cover-sm {
+	&.lastCode-cover-sm {
 		height: 600px;
 		@media screen and (max-width: $screen-sm) {
 			height: 400px;
@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-social-icons {
+.lastCode-social-icons {
 	margin: 0;
 	padding: 0;
 	li {
@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-.fh5co-contact-info {
+.lastCode-contact-info {
 	ul {
 		padding: 0;
 		margin: 0;
@@ -541,9 +541,9 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-#fh5co-header,
-#fh5co-counter,
-.fh5co-cover {
+#lastCode-header,
+#lastCode-counter,
+.lastCode-cover {
 	.display-tc {
 		display: table-cell!important;
 		vertical-align: middle;
@@ -597,20 +597,20 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-bg-section{
+.lastCode-bg-section{
 	background: rgba($brand-black,.05);
 }
 
-#fh5co-services,
-#fh5co-started,
-#fh5co-testimonial,
-#fh5co-trainer,
-#fh5co-gallery,
-#fh5co-schedule,
-#fh5co-pricing,
-#fh5co-blog,
-#fh5co-contact,
-#fh5co-footer{
+#lastCode-services,
+#lastCode-started,
+#lastCode-testimonial,
+#lastCode-trainer,
+#lastCode-gallery,
+#lastCode-schedule,
+#lastCode-pricing,
+#lastCode-blog,
+#lastCode-contact,
+#lastCode-footer{
 	padding: 7em 0;
 	clear: both;
 	@media screen and (max-width: $screen-sm) {
@@ -618,7 +618,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-gallery{
+#lastCode-gallery{
 	padding-bottom: 0;
 }
 
@@ -721,7 +721,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		right: 0;
 		background: rgba($brand-white,1);
 		padding: 7px;
-		.fh5co-social-icons {
+		.lastCode-social-icons {
 			li {
 				a {
 					color: $brand-black;
@@ -736,8 +736,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 // SCHEDULE
-#fh5co-schedule{
-	.fh5co-heading {
+#lastCode-schedule{
+	.lastCode-heading {
 		h2 {
 			color: $brand-white;
 		}
@@ -751,10 +751,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 }
 
-.fh5co-tabs {
+.lastCode-tabs {
 	width: 90%;
 	margin: 0 auto;
-	.fh5co-tab-nav {
+	.lastCode-tab-nav {
 		clear: both;
 		margin: 0;
 		padding: 0;
@@ -788,7 +788,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	.fh5co-tab-content-wrap {
+	.lastCode-tab-content-wrap {
 		clear: both;
 		position: relative;
 		.tab-content {
@@ -946,7 +946,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-portfolio-list {
+#lastCode-portfolio-list {
 	@include flexwrap;
 	@include flex;
 	position: relative;
@@ -1052,7 +1052,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-heading {
+.lastCode-heading {
 	margin-bottom: 5em;
 	h2 {
 		font-size: 30px;
@@ -1087,7 +1087,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-testimonial {
+#lastCode-testimonial {
 	background: #efefef;
 	.testimony-slide{
 		// display: none;
@@ -1142,7 +1142,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-started {
+#lastCode-started {
 	position: relative;
 	.overlay {
 		position: absolute;
@@ -1223,7 +1223,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 
-.fh5co-blog{
+.lastCode-blog{
 	margin-bottom: 60px;
 	a{
 		img{
@@ -1306,7 +1306,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	}
 }
 
-#fh5co-footer {
+#lastCode-footer {
 	// background: rgba($brand-black,.9);
 	position: relative;
 	.overlay {
@@ -1326,7 +1326,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		text-transform: uppercase;
 		color: rgba($brand-white,.8);
 	}
-	.fh5co-footer-links {
+	.lastCode-footer-links {
 		padding: 0;
 		margin: 0;
 		li {
@@ -1342,7 +1342,7 @@ h1, h2, h3, h4, h5, h6, figure {
 			}
 		}
 	}
-	.fh5co-widget {
+	.lastCode-widget {
 		margin-bottom: 30px;
 		@media screen and (max-width: $screen-sm){
 			text-align: left;
@@ -1376,7 +1376,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // off canvas
-#fh5co-offcanvas {
+#lastCode-offcanvas {
 	position: absolute;
 	z-index: 1901;
 	width: 270px;
@@ -1486,7 +1486,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 
 // Burger Menu
-.fh5co-nav-toggle {
+.lastCode-nav-toggle {
   width:25px;
   height:25px;
   cursor: pointer;
@@ -1521,7 +1521,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		  transition:all .2s ease-out;
 	  }
   }
-  &.fh5co-nav-white {
+  &.lastCode-nav-white {
   	> i {
   		color:$brand-black;
   		background: $brand-black;
@@ -1532,22 +1532,22 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 
-.fh5co-nav-toggle i::before {
+.lastCode-nav-toggle i::before {
   top: -7px;
 }
-.fh5co-nav-toggle i::after {
+.lastCode-nav-toggle i::after {
   bottom: -7px;
 }
-.fh5co-nav-toggle:hover i::before {
+.lastCode-nav-toggle:hover i::before {
   top: -10px;
 }
-.fh5co-nav-toggle:hover i::after {
+.lastCode-nav-toggle:hover i::after {
   bottom: -10px;
 }
-.fh5co-nav-toggle.active i {
+.lastCode-nav-toggle.active i {
 	background: transparent;
 }
-.fh5co-nav-toggle.active i::before {
+.lastCode-nav-toggle.active i::before {
   top:0;
   -webkit-transform: rotateZ(45deg);
      -moz-transform: rotateZ(45deg);
@@ -1555,7 +1555,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
 }
-.fh5co-nav-toggle.active i::after {
+.lastCode-nav-toggle.active i::after {
   bottom:0;
   -webkit-transform: rotateZ(-45deg);
      -moz-transform: rotateZ(-45deg);
@@ -1563,7 +1563,7 @@ h1, h2, h3, h4, h5, h6, figure {
        -o-transform: rotateZ(-45deg);
           transform: rotateZ(-45deg);
 }
-.fh5co-nav-toggle {
+.lastCode-nav-toggle {
   position: absolute;
   right: 0px;
   top: 65px;
@@ -1749,7 +1749,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	padding-bottom: 2em!important;
 }
 
-.fh5co-loader {
+.lastCode-loader {
 	position: fixed;
 	left: 0px;
 	top: 0px;
